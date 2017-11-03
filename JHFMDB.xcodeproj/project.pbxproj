@@ -12,6 +12,14 @@
 		F90ACC211FA96A3600D46B75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90ACC1F1FA96A3600D46B75 /* Main.storyboard */; };
 		F90ACC231FA96A3600D46B75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F90ACC221FA96A3600D46B75 /* Assets.xcassets */; };
 		F90ACC261FA96A3600D46B75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F90ACC241FA96A3600D46B75 /* LaunchScreen.storyboard */; };
+		F90ACC3B1FA96CA600D46B75 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ACC301FA96CA600D46B75 /* FMDatabase.m */; };
+		F90ACC3C1FA96CA600D46B75 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ACC321FA96CA600D46B75 /* FMDatabaseAdditions.m */; };
+		F90ACC3D1FA96CA600D46B75 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ACC341FA96CA600D46B75 /* FMDatabasePool.m */; };
+		F90ACC3E1FA96CA600D46B75 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ACC361FA96CA600D46B75 /* FMDatabaseQueue.m */; };
+		F90ACC3F1FA96CA600D46B75 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = F90ACC391FA96CA600D46B75 /* FMResultSet.m */; };
+		F90ACC4C1FA96F2D00D46B75 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F90ACC4B1FA96F2D00D46B75 /* libsqlite3.tbd */; };
+		F92E67031FAB2B39002B1B4D /* HisannFMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92E67021FAB2B39002B1B4D /* HisannFMDB.swift */; };
+		F9F7DBF61FA9C81700BB152D /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F7DBF51FA9C81700BB152D /* People.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,21 @@
 		F90ACC221FA96A3600D46B75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F90ACC251FA96A3600D46B75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F90ACC271FA96A3600D46B75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F90ACC2F1FA96CA600D46B75 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		F90ACC301FA96CA600D46B75 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		F90ACC311FA96CA600D46B75 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		F90ACC321FA96CA600D46B75 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		F90ACC331FA96CA600D46B75 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		F90ACC341FA96CA600D46B75 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		F90ACC351FA96CA600D46B75 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		F90ACC361FA96CA600D46B75 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		F90ACC371FA96CA600D46B75 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		F90ACC381FA96CA600D46B75 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		F90ACC391FA96CA600D46B75 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		F90ACC491FA96EB900D46B75 /* JHFMDBHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHFMDBHeader.h; sourceTree = "<group>"; };
+		F90ACC4B1FA96F2D00D46B75 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		F92E67021FAB2B39002B1B4D /* HisannFMDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HisannFMDB.swift; sourceTree = "<group>"; };
+		F9F7DBF51FA9C81700BB152D /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90ACC4C1FA96F2D00D46B75 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,7 @@
 			children = (
 				F90ACC1A1FA96A3600D46B75 /* JHFMDB */,
 				F90ACC191FA96A3500D46B75 /* Products */,
+				F90ACC4A1FA96F2C00D46B75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,52 @@
 		F90ACC1A1FA96A3600D46B75 /* JHFMDB */ = {
 			isa = PBXGroup;
 			children = (
+				F90ACC2D1FA96A5100D46B75 /* JHFMDB */,
 				F90ACC1B1FA96A3600D46B75 /* AppDelegate.swift */,
 				F90ACC1D1FA96A3600D46B75 /* ViewController.swift */,
 				F90ACC1F1FA96A3600D46B75 /* Main.storyboard */,
 				F90ACC221FA96A3600D46B75 /* Assets.xcassets */,
 				F90ACC241FA96A3600D46B75 /* LaunchScreen.storyboard */,
 				F90ACC271FA96A3600D46B75 /* Info.plist */,
+				F90ACC491FA96EB900D46B75 /* JHFMDBHeader.h */,
+				F9F7DBF51FA9C81700BB152D /* People.swift */,
 			);
 			path = JHFMDB;
+			sourceTree = "<group>";
+		};
+		F90ACC2D1FA96A5100D46B75 /* JHFMDB */ = {
+			isa = PBXGroup;
+			children = (
+				F92E67021FAB2B39002B1B4D /* HisannFMDB.swift */,
+				F90ACC2E1FA96CA600D46B75 /* fmdb */,
+			);
+			path = JHFMDB;
+			sourceTree = "<group>";
+		};
+		F90ACC2E1FA96CA600D46B75 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				F90ACC2F1FA96CA600D46B75 /* FMDatabase.h */,
+				F90ACC301FA96CA600D46B75 /* FMDatabase.m */,
+				F90ACC311FA96CA600D46B75 /* FMDatabaseAdditions.h */,
+				F90ACC321FA96CA600D46B75 /* FMDatabaseAdditions.m */,
+				F90ACC331FA96CA600D46B75 /* FMDatabasePool.h */,
+				F90ACC341FA96CA600D46B75 /* FMDatabasePool.m */,
+				F90ACC351FA96CA600D46B75 /* FMDatabaseQueue.h */,
+				F90ACC361FA96CA600D46B75 /* FMDatabaseQueue.m */,
+				F90ACC371FA96CA600D46B75 /* FMDB.h */,
+				F90ACC381FA96CA600D46B75 /* FMResultSet.h */,
+				F90ACC391FA96CA600D46B75 /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		F90ACC4A1FA96F2C00D46B75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F90ACC4B1FA96F2D00D46B75 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +200,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F90ACC3B1FA96CA600D46B75 /* FMDatabase.m in Sources */,
 				F90ACC1E1FA96A3600D46B75 /* ViewController.swift in Sources */,
+				F90ACC3F1FA96CA600D46B75 /* FMResultSet.m in Sources */,
+				F9F7DBF61FA9C81700BB152D /* People.swift in Sources */,
+				F90ACC3D1FA96CA600D46B75 /* FMDatabasePool.m in Sources */,
 				F90ACC1C1FA96A3600D46B75 /* AppDelegate.swift in Sources */,
+				F90ACC3C1FA96CA600D46B75 /* FMDatabaseAdditions.m in Sources */,
+				F90ACC3E1FA96CA600D46B75 /* FMDatabaseQueue.m in Sources */,
+				F92E67031FAB2B39002B1B4D /* HisannFMDB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,9 +335,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG9DJHT235;
 				INFOPLIST_FILE = JHFMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lito.JHFMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JHFMDB/JHFMDBHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -278,9 +350,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VG9DJHT235;
 				INFOPLIST_FILE = JHFMDB/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lito.JHFMDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = JHFMDB/JHFMDBHeader.h;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +378,7 @@
 				F90ACC2C1FA96A3600D46B75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
